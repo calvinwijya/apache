@@ -34,9 +34,6 @@ Before starting, make sure to have Docker and Docker Compose installed:
 
   make restart
   # you can do `make restart` it will just run make down and up
-
-  make help
-  # this will list all the cmds you can use along with their descriptions
   ```
 
 
