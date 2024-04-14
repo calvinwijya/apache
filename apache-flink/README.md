@@ -24,7 +24,7 @@ Before starting, make sure to have Docker and Docker Compose installed:
 
   ```bash
   make down
-  # docker compose down --remove-orphans # same as `make down`
+  # docker compose down --remove-orphans
 
   make up
   # docker compose --env-file flink-env.env up --build --remove-orphans -d
@@ -33,7 +33,7 @@ Before starting, make sure to have Docker and Docker Compose installed:
   # docker compose exec -d jobmanager ./bin/flink run -py /opt/src/job start_job.py --pyFiles /opt/src
 
   make restart
-  # you can do `make restart` it will just run make down and up
+  # you run this command it will just run make down and up
   ```
 
 
